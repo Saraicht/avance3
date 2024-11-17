@@ -258,3 +258,81 @@ class CustomTableViewCell: UITableViewCell {
     }
 }
 
+
+//ANADIDO POR BERNIE
+class CustomButton10: UIButton {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupStyle()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupStyle()
+    }
+    
+    private func setupStyle() {
+        self.backgroundColor = .darkGray
+        self.layer.cornerRadius = 15
+        self.setTitleColor(.white, for: .normal)
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOpacity = 0.3
+        self.layer.shadowOffset = CGSize(width: 2, height: 2)
+    }
+}
+
+class CustomButton11: UIButton {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupStyle()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupStyle()
+    }
+    
+    private func setupStyle() {
+        self.backgroundColor = .systemIndigo
+        self.layer.cornerRadius = 15
+        self.setTitleColor(.white, for: .normal)
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOpacity = 0.3
+        self.layer.shadowOffset = CGSize(width: 2, height: 2)
+    }
+}
+
+class CustomButton12: UIButton {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupStyle()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupStyle()
+    }
+    
+    private func setupStyle() {
+        backgroundColor = .clear
+        layer.cornerRadius = 12
+        layer.borderWidth = 2.0
+        layer.borderColor = UIColor.white.cgColor
+        setTitleColor(UIColor.white, for: .normal)
+        titleLabel?.font = .systemFont(ofSize: 23, weight: .medium)
+        
+        // Sombra suave
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowOpacity = 0.1
+        layer.shadowOffset = CGSize(width: 0, height: 2)
+        layer.shadowRadius = 4
+        
+        // Estilo para botón flotante
+        if tag == 100 {
+            backgroundColor = DesignConstants.accentColor
+            setImage(UIImage(systemName: "plus"), for: .normal)
+            tintColor = .white
+            layer.cornerRadius = 22
+        }
+    }
+}

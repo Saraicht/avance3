@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345EF7322CE7C26E0092AD49 /* ViewControllerInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EF7312CE7C26E0092AD49 /* ViewControllerInicio.swift */; };
+		345EF7342CE7C5520092AD49 /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EF7332CE7C5520092AD49 /* ViewControllerLogin.swift */; };
+		345EF7362CE7C6A00092AD49 /* ViewControllerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EF7352CE7C6A00092AD49 /* ViewControllerIntro.swift */; };
+		345EF7382CE7C7040092AD49 /* ViewControllerCrearUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EF7372CE7C7040092AD49 /* ViewControllerCrearUsuario.swift */; };
+		345EF73B2CE7D5D90092AD49 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 345EF73A2CE7D5D90092AD49 /* GoogleSignIn */; };
+		345EF73D2CE7FC8B0092AD49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 345EF73C2CE7FC8B0092AD49 /* GoogleService-Info.plist */; };
+		34C0DD472CE9527E00C94AD9 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 34C0DD462CE9527E00C94AD9 /* FacebookCore */; };
+		34C0DD492CE9527E00C94AD9 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 34C0DD482CE9527E00C94AD9 /* FacebookLogin */; };
 		9D404AB52CE2967200010448 /* EstilosButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D404AB42CE2967200010448 /* EstilosButton.swift */; };
-		9D40A54A2CE1002F0080EE6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D40A5492CE1002F0080EE6C /* GoogleService-Info.plist */; };
 		9D40A54D2CE102AF0080EE6C /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9D40A54C2CE102AF0080EE6C /* FirebaseStorageSwift-Beta */; };
 		9D40A54F2CE102AF0080EE6C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9D40A54E2CE102AF0080EE6C /* FirebaseAnalytics */; };
 		9D40A5512CE102AF0080EE6C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9D40A5502CE102AF0080EE6C /* FirebaseFirestore */; };
@@ -30,8 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		345EF7312CE7C26E0092AD49 /* ViewControllerInicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInicio.swift; sourceTree = "<group>"; };
+		345EF7332CE7C5520092AD49 /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		345EF7352CE7C6A00092AD49 /* ViewControllerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIntro.swift; sourceTree = "<group>"; };
+		345EF7372CE7C7040092AD49 /* ViewControllerCrearUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCrearUsuario.swift; sourceTree = "<group>"; };
+		345EF73C2CE7FC8B0092AD49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34C0DD4A2CE9567700C94AD9 /* avancePoryecto1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = avancePoryecto1.entitlements; sourceTree = "<group>"; };
 		9D404AB42CE2967200010448 /* EstilosButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstilosButton.swift; sourceTree = "<group>"; };
-		9D40A5492CE1002F0080EE6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9D40A5582CE103FF0080EE6C /* ViewControllerAgregarCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAgregarCat.swift; sourceTree = "<group>"; };
 		9D40A55A2CE125810080EE6C /* ViewControllerProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProductos.swift; sourceTree = "<group>"; };
 		9D40A55C2CE1314E0080EE6C /* ViewControllerAgregarProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAgregarProductos.swift; sourceTree = "<group>"; };
@@ -58,7 +70,10 @@
 				9D40A54D2CE102AF0080EE6C /* FirebaseStorageSwift-Beta in Frameworks */,
 				9D40A5512CE102AF0080EE6C /* FirebaseFirestore in Frameworks */,
 				9D40A5552CE102AF0080EE6C /* FirebaseAppCheck in Frameworks */,
+				34C0DD492CE9527E00C94AD9 /* FacebookLogin in Frameworks */,
 				9D40A5532CE102AF0080EE6C /* FirebaseAuth in Frameworks */,
+				345EF73B2CE7D5D90092AD49 /* GoogleSignIn in Frameworks */,
+				34C0DD472CE9527E00C94AD9 /* FacebookCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +97,10 @@
 				9D40A5582CE103FF0080EE6C /* ViewControllerAgregarCat.swift */,
 				9D40A55A2CE125810080EE6C /* ViewControllerProductos.swift */,
 				9D40A55C2CE1314E0080EE6C /* ViewControllerAgregarProductos.swift */,
+				345EF7312CE7C26E0092AD49 /* ViewControllerInicio.swift */,
+				345EF7332CE7C5520092AD49 /* ViewControllerLogin.swift */,
+				345EF7352CE7C6A00092AD49 /* ViewControllerIntro.swift */,
+				345EF7372CE7C7040092AD49 /* ViewControllerCrearUsuario.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -113,16 +132,17 @@
 		9D56563D2CE02B36000E00FC /* avancePoryecto1 */ = {
 			isa = PBXGroup;
 			children = (
+				34C0DD4A2CE9567700C94AD9 /* avancePoryecto1.entitlements */,
 				9D177ADA2CE3082E0075458A /* ViewController */,
 				9D177AD92CE306F40075458A /* Modelos */,
 				9D404AB32CE2965B00010448 /* Estilos */,
 				9D56563E2CE02B37000E00FC /* AppDelegate.swift */,
 				9D5656402CE02B37000E00FC /* SceneDelegate.swift */,
 				9D5656442CE02B37000E00FC /* Main.storyboard */,
+				345EF73C2CE7FC8B0092AD49 /* GoogleService-Info.plist */,
 				9D5656472CE02B37000E00FC /* Assets.xcassets */,
 				9D5656492CE02B37000E00FC /* LaunchScreen.storyboard */,
 				9D56564C2CE02B37000E00FC /* Info.plist */,
-				9D40A5492CE1002F0080EE6C /* GoogleService-Info.plist */,
 			);
 			path = avancePoryecto1;
 			sourceTree = "<group>";
@@ -150,6 +170,9 @@
 				9D40A5522CE102AF0080EE6C /* FirebaseAuth */,
 				9D40A5542CE102AF0080EE6C /* FirebaseAppCheck */,
 				9D40A5562CE102AF0080EE6C /* FirebaseDatabase */,
+				345EF73A2CE7D5D90092AD49 /* GoogleSignIn */,
+				34C0DD462CE9527E00C94AD9 /* FacebookCore */,
+				34C0DD482CE9527E00C94AD9 /* FacebookLogin */,
 			);
 			productName = avancePoryecto1;
 			productReference = 9D56563B2CE02B36000E00FC /* avancePoryecto1.app */;
@@ -180,6 +203,8 @@
 			mainGroup = 9D5656322CE02B36000E00FC;
 			packageReferences = (
 				9D40A54B2CE102AF0080EE6C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				345EF7392CE7D5D90092AD49 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				34C0DD452CE9527E00C94AD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 9D56563C2CE02B36000E00FC /* Products */;
 			projectDirPath = "";
@@ -196,7 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D56564B2CE02B37000E00FC /* LaunchScreen.storyboard in Resources */,
-				9D40A54A2CE1002F0080EE6C /* GoogleService-Info.plist in Resources */,
+				345EF73D2CE7FC8B0092AD49 /* GoogleService-Info.plist in Resources */,
 				9D5656482CE02B37000E00FC /* Assets.xcassets in Resources */,
 				9D5656462CE02B37000E00FC /* Main.storyboard in Resources */,
 			);
@@ -213,10 +238,14 @@
 				9D40A55D2CE1314E0080EE6C /* ViewControllerAgregarProductos.swift in Sources */,
 				9D4D1A642CE16C7900EE3AD1 /* CategoriManager.swift in Sources */,
 				9D5656432CE02B37000E00FC /* ViewController.swift in Sources */,
+				345EF7382CE7C7040092AD49 /* ViewControllerCrearUsuario.swift in Sources */,
+				345EF7322CE7C26E0092AD49 /* ViewControllerInicio.swift in Sources */,
 				9D4D1A622CE14E5700EE3AD1 /* Categoria.swift in Sources */,
 				9D40A55B2CE125820080EE6C /* ViewControllerProductos.swift in Sources */,
 				9D40A5592CE103FF0080EE6C /* ViewControllerAgregarCat.swift in Sources */,
+				345EF7342CE7C5520092AD49 /* ViewControllerLogin.swift in Sources */,
 				9D404AB52CE2967200010448 /* EstilosButton.swift in Sources */,
+				345EF7362CE7C6A00092AD49 /* ViewControllerIntro.swift in Sources */,
 				9D56563F2CE02B37000E00FC /* AppDelegate.swift in Sources */,
 				9D5656412CE02B37000E00FC /* SceneDelegate.swift in Sources */,
 			);
@@ -365,12 +394,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = avancePoryecto1/avancePoryecto1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = avancePoryecto1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.avancePoryecto1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -383,12 +414,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = avancePoryecto1/avancePoryecto1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = avancePoryecto1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.avancePoryecto1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -420,6 +453,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		345EF7392CE7D5D90092AD49 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 6.1.0;
+			};
+		};
+		34C0DD452CE9527E00C94AD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
 		9D40A54B2CE102AF0080EE6C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -431,6 +480,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		345EF73A2CE7D5D90092AD49 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 345EF7392CE7D5D90092AD49 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		34C0DD462CE9527E00C94AD9 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34C0DD452CE9527E00C94AD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		34C0DD482CE9527E00C94AD9 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34C0DD452CE9527E00C94AD9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
 		9D40A54C2CE102AF0080EE6C /* FirebaseStorageSwift-Beta */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9D40A54B2CE102AF0080EE6C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
