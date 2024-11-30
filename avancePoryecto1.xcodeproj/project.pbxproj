@@ -15,6 +15,7 @@
 		345EF73D2CE7FC8B0092AD49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 345EF73C2CE7FC8B0092AD49 /* GoogleService-Info.plist */; };
 		34C0DD472CE9527E00C94AD9 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 34C0DD462CE9527E00C94AD9 /* FacebookCore */; };
 		34C0DD492CE9527E00C94AD9 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 34C0DD482CE9527E00C94AD9 /* FacebookLogin */; };
+		3CECE96B2CFAF1CD0064D945 /* ViewControllerInforme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CECE96A2CFAF1CD0064D945 /* ViewControllerInforme.swift */; };
 		9D404AB52CE2967200010448 /* EstilosButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D404AB42CE2967200010448 /* EstilosButton.swift */; };
 		9D40A54D2CE102AF0080EE6C /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9D40A54C2CE102AF0080EE6C /* FirebaseStorageSwift-Beta */; };
 		9D40A54F2CE102AF0080EE6C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9D40A54E2CE102AF0080EE6C /* FirebaseAnalytics */; };
@@ -43,6 +44,7 @@
 		345EF7372CE7C7040092AD49 /* ViewControllerCrearUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCrearUsuario.swift; sourceTree = "<group>"; };
 		345EF73C2CE7FC8B0092AD49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		34C0DD4A2CE9567700C94AD9 /* avancePoryecto1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = avancePoryecto1.entitlements; sourceTree = "<group>"; };
+		3CECE96A2CFAF1CD0064D945 /* ViewControllerInforme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInforme.swift; sourceTree = "<group>"; };
 		9D404AB42CE2967200010448 /* EstilosButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstilosButton.swift; sourceTree = "<group>"; };
 		9D40A5582CE103FF0080EE6C /* ViewControllerAgregarCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAgregarCat.swift; sourceTree = "<group>"; };
 		9D40A55A2CE125810080EE6C /* ViewControllerProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProductos.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				9D56563E2CE02B37000E00FC /* AppDelegate.swift */,
 				9D5656402CE02B37000E00FC /* SceneDelegate.swift */,
 				9D5656442CE02B37000E00FC /* Main.storyboard */,
+				3CECE96A2CFAF1CD0064D945 /* ViewControllerInforme.swift */,
 				345EF73C2CE7FC8B0092AD49 /* GoogleService-Info.plist */,
 				9D5656472CE02B37000E00FC /* Assets.xcassets */,
 				9D5656492CE02B37000E00FC /* LaunchScreen.storyboard */,
@@ -242,6 +245,7 @@
 				345EF7322CE7C26E0092AD49 /* ViewControllerInicio.swift in Sources */,
 				9D4D1A622CE14E5700EE3AD1 /* Categoria.swift in Sources */,
 				9D40A55B2CE125820080EE6C /* ViewControllerProductos.swift in Sources */,
+				3CECE96B2CFAF1CD0064D945 /* ViewControllerInforme.swift in Sources */,
 				9D40A5592CE103FF0080EE6C /* ViewControllerAgregarCat.swift in Sources */,
 				345EF7342CE7C5520092AD49 /* ViewControllerLogin.swift in Sources */,
 				9D404AB52CE2967200010448 /* EstilosButton.swift in Sources */,
